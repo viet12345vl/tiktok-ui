@@ -6,9 +6,19 @@
 
 .container {
     display: flex;
+    max-width: 100%;
     width: var(--default-layout-width);
+    margin-top: 60px;
     padding: 0 var(--default-layout-horizontal-spacer);
 }
 .content {
     flex: 1;
+    margin-left: 360px;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    overscroll-behavior-y: contain;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    perspective-origin: right top;
 }
